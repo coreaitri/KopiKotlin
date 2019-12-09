@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuAdmin"
+        android:title="Menu"
+        android:icon="@drawable/ic_action_menu"/>
+<!--    <item-->
+<!--        android:id="@+id/order"-->
+<!--        android:title="Order"-->
+<!--        android:icon="@drawable/ic_action_order"/>-->
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_action_setting"/>
+
+</menu>

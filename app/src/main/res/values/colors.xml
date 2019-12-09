@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGradient1">#eacda3</color>
+    <color name="colorGradient2">#c2e59c </color>
+    <color name="colorGradient3">#64b3f4</color>
+    <color name="colorGradient4">#00C9FF</color>
+    <color name="colorGradient5">#649873</color>
+    <color name="colorGradient6">#a7e9a5</color>
+    <color name="colorGradient7">#adc4b1</color>
+    <color name="colorCoffee">#6f4e37</color>
+    <color name="colorCoffeeTra">#cc6f4e37</color>
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#ffffff</color>
+    <color name="intro_description_color">#656565</color>
+</resources>

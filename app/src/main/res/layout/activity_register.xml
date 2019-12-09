@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_all"
+    android:id="@+id/frame">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Kopikuh"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bg_shadow"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <EditText
+            android:id="@+id/etr_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_signup_person"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill"
+            android:background="@drawable/button_gradient_style"
+            android:fontFamily="@font/bree_serif"
+            android:hint="Name"
+            android:textColorHint="#ccffffff"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/etr_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_signup_person"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill"
+            android:background="@drawable/button_gradient_style"
+            android:fontFamily="@font/bree_serif"
+            android:hint="Email"
+            android:textColorHint="#ccffffff"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/etr_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_signup_phone"
+            android:background="@drawable/button_gradient_style"
+            android:fontFamily="@font/bree_serif"
+            android:textColorHint="#ccffffff"
+            android:drawablePadding="10dp"
+            android:gravity="fill"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Agree Term and Condition"
+            android:textColor="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/button_bgr"
+                android:fontFamily="@font/lemon"
+                android:text="Sign Up"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

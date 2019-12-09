@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorCoffeeTra">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvoOrderId"
+        android:text="OrderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_brush"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvoName"
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_brush"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvoNumberHP"
+        android:text="Number Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_brush"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvoAddress"
+        android:text="Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_brush"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvoTotal"
+        android:text="Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_brush"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btnLookOrder"
+        android:text="Looked Order"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

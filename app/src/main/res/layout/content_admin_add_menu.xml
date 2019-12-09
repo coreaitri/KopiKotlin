@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_admin_add_menu"
+    android:background="@color/colorCoffeeTra">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/artifika"
+            android:text="Coffee Name"/>
+
+        <EditText
+            android:id="@+id/eta_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Enter Coffee Name"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/caveat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/artifika"
+            android:text="Coffee Price"/>
+
+        <EditText
+            android:id="@+id/eta_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Enter Coffee Price"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/caveat"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/artifika"
+            android:text="Image File"/>
+
+        <Button
+            android:id="@+id/btn_choose_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose File"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
+

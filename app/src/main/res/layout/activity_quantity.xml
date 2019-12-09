@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_shadow"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/layLinQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/ivProduct"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:src="@drawable/kartini"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Drink"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/lemon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:id="@+id/tvPriceProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:fontFamily="@font/caveat_brush"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/btnDecrement"
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnIncrement"
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:background="@color/colorPrimary"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linTotal"
+        android:layout_below="@+id/layLinQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Total :"
+            android:fontFamily="@font/caveat_brush"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:text="0"
+            android:fontFamily="@font/bree_serif"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnAddCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/linTotal"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

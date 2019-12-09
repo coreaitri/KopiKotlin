@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugas.kopikuhkopi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.OrderAdmin.OrderActivity"></activity>
+        <activity android:name=".Admin.OrderAdmin.DetailOrderActivity" />
+        <activity android:name=".User.CartUser.QuantityActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".Splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SliderScreen.SliderActivity"
+            android:theme="@style/SliderTheme" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/SliderTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/SliderTheme" />
+        <activity android:name=".Admin.AdminBottom.AdminBottomActivity" />
+        <activity android:name=".Admin.MenuAdmin.AddMenuActivity" />
+        <activity android:name=".Admin.MenuAdmin.MenuAdminActivity" />
+        <activity android:name=".User.UserBottom.UserBottomActivity" />
+        <activity android:name=".User.ChangePasswordActivity" />
+        <activity android:name=".User.UserBottom.ProfileFragment" />
+        <activity android:name=".User.CartUser.CartUserActivity" />
+        <activity android:name=".User.CartUser.ConfirmOrder" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

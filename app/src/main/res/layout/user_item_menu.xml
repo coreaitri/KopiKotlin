@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/layOrder">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_shadow"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_userImageMenu"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:src="@drawable/kartini"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            />
+
+            <TextView
+                android:id="@+id/tv_userNameMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drink"
+                android:textSize="20sp"
+                android:fontFamily="@font/lemon"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/tv_userPriceMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:fontFamily="@font/caveat_brush"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+</RelativeLayout>

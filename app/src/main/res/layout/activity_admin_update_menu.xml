@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCoffeeTra">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/artifika"
+            android:text="Coffee Name"/>
+
+        <EditText
+            android:id="@+id/etu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Edit Name"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/caveat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/artifika"
+            android:text="Coffee Price"/>
+
+        <EditText
+            android:id="@+id/etu_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:hint="Edit Price"
+            android:background="@drawable/button_style"
+            android:fontFamily="@font/caveat"
+            android:inputType="numberDecimal"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
